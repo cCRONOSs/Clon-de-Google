@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #000001;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.iconapp{
+    padding: 8px;
+    align-items: center;
+}
+
+.menu-icon{
+    background-image: url(756729-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+}
+.nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 4px;
+    margin: 0;
+    border: 0;
+    width: 32px;
+    height: 32px;
+}
+
+/* ESTILOS MAIN*/
+
+main{
+    /*margin-top: 100px;*/
+    display: flex;
+    height: 65.5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Google{
+    
+    margin-bottom: 35px;
+}
+.Google img{
+    width: 272px;
+    height: 92px;
+}
+
+.input{
+    display: flex;
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    justify-content: center;
+}
+.input_container{
+    display: flex;
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6;
+    justify-content: center;
+    align-items: center;
+}
+.input input{
+    width: 584px;
+    height: 48px;
+    border: none;
+    outline: none;
+}
+
+.input_container:hover{
+    box-shadow: 0 1px 6px #20212447;
+}
+
+.search{
+    background-image: url(lupa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.simg{
+    background-image: url(busquedaimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}  
+
+.micro{
+    background-image: url(Google_mic.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}  
+
+.botones{
+    display:inline-flex;
+    width: 584px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones button{
+    height: 36px;
+    background-color: #f8f8fa;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.botones button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px #dadce0;
+    color: #202124;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-left{
+    justify-content: left;
+}
+.footer-right{
+    justify-content: right;
+}
+
+footer ul li a{
+    font-size: 14px;
+    margin: 10px;
+    color: #81858a;
+}
+.foot{
+    box-shadow: 1px #dadce0;
+    color: #202124;  
+}
